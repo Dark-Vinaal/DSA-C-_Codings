@@ -1,4 +1,4 @@
-B) SINGLE LINKED LIST
+// B) SINGLE LINKED LIST
 
 #include<iostream.h>
 #include<conio.h>
