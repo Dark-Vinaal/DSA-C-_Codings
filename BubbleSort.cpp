@@ -4,19 +4,25 @@
 #include<conio.h>
 int main()
 {
-int a[10],n,i,j,t; clrscr();
-cout<< "\t\tBUBBLE SORTING\n"; cout<<"\nEnter the number of Terms:"; cin>>n;
-cout<< "\nEnter the Elements: " << endl; for (i = 0; i < n; i++)
-cin>> a[i]; for (i = 1; i < n; i++)
+int a[10],n,i,j,t; 
+clrscr();
+cout<< "\t\tBUBBLE SORTING\n"; 
+cout<<"\nEnter the number of Terms:"; 
+cin>>n;
+cout<< "\nEnter the Elements: " << endl; 
+for (i = 0; i < n; i++)
+  cin>> a[i]; 
+for (i = 1; i < n; i++)
 {
-for (j = 0; j < n-1; j++)
-{
-if (a[j] >a[j + 1])
-{
-t = a[j];
-a[j] = a[j + 1]; a[j + 1] = t;
-}
-}
+  for (j = 0; j < n-1; j++)
+  {
+    if (a[j] >a[j + 1])
+    {
+      t = a[j];
+      a[j] = a[j + 1]; 
+      a[j + 1] = t;
+    }
+  }
 }
 cout<< "\n\nAFTERBUBBLE SORTING :";
 for (i = 0; i < n; i++)
