@@ -1,5 +1,6 @@
 ## My Learning Journey 
 
+- This repository contains a well-organized collection of notes and coding exercises created during my academic and self-learning journey. It documents my learning process across various topics, highlighting both conceptual understanding and practical implementation through hands-on coding.
 
 ---
 
@@ -31,23 +32,46 @@ You have complete freedom with proper attribution.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 AUTHOR 
 
 ### Vinaal R
 
-Passionate Learner | Aspiring Developer | Python Enthusiast
+Passionate Learner | Creative Developer | Coding Enthusiast
+
+- Always exploring. Always building. Always improving.
+- I learn by building. I grow by experimenting.
+- Coding isn’t just a skill for me — it’s a craft I’m shaping every single day.
 
 ### Contact me through 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinaal/) [![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?logo=github&logoColor=white)](https://github.com/Dark-Vinaal) 
+<div align="center">
+  <a href="https://vinaalr.netlify.app/">
+  <img src="https://img.shields.io/badge/VR%20-%20Portfolio-d5d5d5?style=for-the-badge&labelColor=0A0209&color=d5d5d5&logoColor=0A0209" />
+</a>
+<a href="https://www.linkedin.com/in/vinaal/">
+  <img src="https://img.shields.io/badge/LinkedIn-d5d5d5?style=for-the-badge&logo=linkedin&logoColor=0A0209" alt="LinkedIn" />
+</a>
+<a href="https://github.com/Dark-Vinaal">
+  <img src="https://img.shields.io/badge/GitHub-d5d5d5?style=for-the-badge&logo=github&logoColor=0A0209" alt="GitHub" />
+</a>
+<a href="https://linktr.ee/Darkxzz999">
+  <img src="https://img.shields.io/badge/Linktree-d5d5d5?style=for-the-badge&logo=linktree&logoColor=0A0209" alt="Linktree" />
+</a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300">
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/236119160-976a0405-caa7-470c-9356-16d43402ea0a.gif" width="300">    <img src="https://user-images.githubusercontent.com/74038190/212749168-86d6c7ab-98da-409b-998f-c5b74721badd.gif" width="500">
 
 ---
 
 > Happy Learning! 🚀  
 > *Coding is powerful, and this repo will help you master it step-by-step.*    
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300">
-</div>
 
 ---
