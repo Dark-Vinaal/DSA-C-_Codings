@@ -1,0 +1,58 @@
+' BASIC PRIMITIVES
+
+rivate Sub cmdCir_Click()
+'Circle
+Cls
+DrawWidth = 4
+fillColor = vbRed
+FillStyle = 2
+Circle (6000, 6000), 1000, vbBlue
+End Sub
+----------------------------------------------------------------------------------------------------------------
+
+Private Sub cmdEllip_Click()
+'Ellipse
+Cls
+DrawWidth = 8
+fillColor = vbBlack
+Fillsytle = 3
+Circle (5000, 4000), 1000, vbRed, , , 1
+End Sub
+----------------------------------------------------------------------------------------------------------------
+
+Private Sub cmdEnd_Click()
+End
+End Sub
+----------------------------------------------------------------------------------------------------------------
+
+Private Sub cmdLine_Click()
+'Line
+Cls
+DrawWidth = 5
+Line (1000, 1000)-(8000, 6000), vbRed
+End Sub
+----------------------------------------------------------------------------------------------------------------
+
+Private Sub cmdRect_Click()
+'Rectangle
+Cls
+DrawWidth = 8
+fillColor = vbBlue
+FillStyle = 4
+Line (8000, 8000)-(3000, 5000), vbRed, B
+End Sub
+----------------------------------------------------------------------------------------------------------------
+Private Sub cmdSquare_Click()
+'Square
+Cls
+DrawWidth = 6
+fillColor = vbBlack
+FillStyle = 5
+Line (6000, 6000)-(3000, 3000), vbGreen, B
+End Sub
+----------------------------------------------------------------------------------------------------------------
+
+Private Sub Form_Load()
+Me.WindowState = 2
+End Sub
+----------------------------------------------------------------------------------------------------------------
