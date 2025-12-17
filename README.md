@@ -44,6 +44,10 @@ Passionate Learner | Aspiring Developer | Python Enthusiast
 ---
 
 > Happy Learning! 🚀  
-> *Coding is powerful, and this repo will help you master it step-by-step.*
+> *Coding is powerful, and this repo will help you master it step-by-step.*    
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fddcdbcd-5ea2-4416-9f59-ca7fd9394aca" width="300">
+</div>
 
 ---
