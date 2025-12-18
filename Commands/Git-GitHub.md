@@ -35,7 +35,7 @@ git init
 **Purpose:** Creates a local copy of a remote repository.
 
 ```bash
-git clone [https://github.com/username/repository.git](https://github.com/username/repository.git)
+git clone [repository url](https://github.com/username/repository.git)
 ```
 
 ---
@@ -111,7 +111,7 @@ git push -u origin branch-name
 git pull origin branch-name
 ```
 
-> **Note:** Branch name can be either <main> or <master> most commonly.. If not then add you desired branch name.
+> **Note:** Branch name can be either main or master most commonly.. If not then add you desired branch name.
 
 ---
 
@@ -127,7 +127,7 @@ git pull origin branch-name
 git pull origin <branch-name> --allow-unrelated-histories
 ```
 
-> **Note:** Branch name can be either <main> or <master> most commonly.. If not then add you desired branch name.
+> **Note:** Branch name can be either main or master most commonly.. If not then add you desired branch name.
 
 ---
 
@@ -382,7 +382,87 @@ git push --force-with-lease
 
 ---
 
-## 🌐 7. GitHub-Specific Workflows
+## 🚩 Detailed Flag Breakdown
+
+### `-m `(Message)
+
+- Used almost exclusively with git commit. It allows you to write the commit message directly in the command line instead of opening a text editor (like Vim or Notepad).
+
+#### Example: 
+```bash
+git commit -m "Fix login bug"
+```
+
+---
+
+### `-v` (Verbose)
+
+- Tells Git to give you more details about what it’s doing.
+- In git remote `-v`: Shows the actual URLs (fetch and push) linked to the remote names.
+- In git commit `-v`: Shows the "diff" of what you are committing inside the editor.
+
+---
+
+### `-u` (Set Upstream / Tracking)
+
+- Used with git push to link your local branch to a remote branch. Once you use this once, you can just type git push or git pull without specifying the remote name or branch in the future.
+
+#### Example: 
+```bash
+git push -u origin main
+```
+
+---
+
+### `-M` (Move / Rename)
+
+- Used when branching to force a rename of a branch. This is most commonly seen when developers switch the default branch name from master to main.
+
+#### Example: 
+```bash
+git branch -M main
+```
+
+---
+
+### `-f` or `--force` (Force)
+
+- Forces Git to complete an action even if it thinks it’s dangerous or will cause data loss.
+- In git push -f: Overwrites the remote history with your local history.
+- In git clean -f: Actually deletes the untracked files.
+
+> **Warning:** Use this sparingly; it can delete code permanently.
+
+---
+
+### `-d` or `-D` (Delete)
+
+- Used with git branch to delete a branch.
+- `-d`: Safe delete (only deletes if the branch has been merged).
+- `-D`: Force delete (deletes regardless of merge status).
+
+---
+
+### `-a` (All / Annotated)
+
+- In git commit `-a`: Automatically stages files that have been modified and deleted, then commits them (skips the git add step for tracked files).
+- In git tag `-a`: Creates an "annotated" tag which includes the creator's name, date, and a message.
+
+---
+
+| Flag | Meaning | Common Command | Purpose |
+|------|---------|----------------|---------|
+|  -m  | Message | git commit     | Adds a description to your save point. |
+|  -u  | Upstream| git push       | Remembers your branch preferences for next time. |
+|  -v  | Verbose | git remote     | Provides extra details and URLs. |
+|  -f  | Force   | git push       | Overrides safety warnings (Dangerous!). |
+|  -M  | Move    | git branch     | Renames the current branch. |
+|  -a  | All / Annotated |git commit / git tag | Includes all changes or extra metadata. |
+|  -p  | Patch | git add / git log | Review changes line-by-line. |
+
+---
+
+## 🌐 8. GitHub-Specific Workflows
 
 These are platform features rather than core Git terminal commands.
 
