@@ -1,7 +1,9 @@
 # 🧩 Git & GitHub Commands Guide
     
 - A complete reference of commonly used Git and GitHub commands, organized by workflow stages.
-    
+
+![](https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQ0P7lByzwTvgQFfp-ckaKwsPqZKjvgXc7Sjbv6i-e7Ph-bu8YFQWU92Sd3ZIVo5vbuEGrOLBBi5qlfKBHa7vdgN_lr8RdGYHnSkksqz5g6x_1hr7s)
+
 ---
 
 ## 🏗️ 1. Setup & Configuration
@@ -146,8 +148,6 @@ git fetch
 ## 🌿 3. Branching & Merging
 
 Used for working on features or bug fixes without breaking the main code.
-
-![]()
 
 ---
 
