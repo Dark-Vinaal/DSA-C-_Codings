@@ -131,6 +131,18 @@ git pull origin <branch-name> --allow-unrelated-histories
 
 ---
 
+### `📌 git fetch`
+
+**Purpose:** Downloads changes from remote without merging.
+
+- Safer than pull; allows inspection before merging.
+
+```bash
+git fetch
+```
+
+---
+
 ## 🌿 3. Branching & Merging
 
 Used for working on features or bug fixes without breaking the main code.
@@ -285,7 +297,17 @@ git cherry-pick <commit_id>
 
 ---
 
-## 🚀 6. Advanced & Maintenance
+## 🧹 6. Advanced & File, Repo Maintenance
+
+### 📌 `git rm`
+
+**Purpose:** Removes files from Git tracking and the working directory.
+
+```bash
+git rm <filename>
+```
+
+---
 
 ### 📌 `git remote`
 
@@ -314,6 +336,38 @@ git clean -fd   # -f for files, -d for directories
 
 ```bash
 git tag v1.0
+```
+
+---
+
+### 📌 `git archive`
+
+**Purpose:** Creates a compressed archive of the repository.
+
+```bash
+git archive --format=zip HEAD > project.zip
+```
+
+---
+
+### 📌 `git submodule`
+
+**Purpose:** Adds another Git repository inside your repo.
+
+```bash
+git submodule add <repo_url> <path>
+```
+
+---
+
+### 📌 `git push --force`
+
+**Purpose:** Overwrites remote branch with local history.
+
+> ⚠️ Dangerous on shared branches.
+
+```bash
+git push --force
 ```
 
 ---
