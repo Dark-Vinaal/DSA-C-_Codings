@@ -489,6 +489,81 @@ These are platform features rather than core Git terminal commands.
 
 ---
 
+## 🤖 9. GitHub CLI (gh) Commands
+
+- The GitHub CLI allows you to do GitHub actions (Pull Requests, Issues) without leaving the terminal.
+
+### 📌 Authentication & Setup
+
+- Log in to your GitHub account
+```bash
+gh auth login
+```
+
+- Check login status
+```bash
+gh auth status
+```
+
+---
+
+### 📌 Working with Repos
+
+- Create a new repo on GitHub
+```bash
+gh repo create
+```
+
+- Fork a repo to your account
+```bash
+gh repo fork
+```
+
+- Open the current repo in your browser
+```bash
+gh repo view --web
+```
+
+---
+
+### 📌 Pull Requests (PRs)
+
+- Create a Pull Request from your branch
+```bash
+gh pr create
+```
+
+- List all open PRs in the repo
+```bash
+gh pr list
+```
+
+- Switch to the code in PR number X
+```bash
+gh pr checkout <num>
+```
+
+- Merge the current PR
+```bash
+gh pr merge
+```
+
+---
+
+### 📌 Issues
+
+- View active bugs/tasks
+```bash
+gh issue list
+```
+
+- Report a new bug/task
+```bash        
+gh issue create
+```
+
+---
+
 ## 🧠 Summary
 
 > Git = Local version control (tracks history).
@@ -496,5 +571,7 @@ These are platform features rather than core Git terminal commands.
 > GitHub = Remote hosting (collaboration & automation).
 
 > Workflow : `add` → `commit` → `push`.
+
+> GitHub CLI : Terminal Efficiency → `gh pr create`, `gh repo view`
 
 ---
