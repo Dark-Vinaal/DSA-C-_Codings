@@ -1,6 +1,8 @@
-## 🔌 Module 10: Model Context Protocol (MCP)
+##  Model Context Protocol (MCP)
 
 - **Model Context Protocol (MCP)** is an open standard designed to solve the "Integration Nightmare." Traditionally, connecting an AI to a new tool (like Slack, GitHub, or a local Database) required custom, brittle code. MCP provides a universal way for AI to "plug in" to any data source.
+
+|| [MCP](https://modelcontextprotocol.io/docs/getting-started/intro)  || [GitHub](https://github.com/modelcontextprotocol) ||
 
 ---
 
